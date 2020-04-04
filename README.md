@@ -17,4 +17,4 @@ https://github.com/fpandzc/DataStructureEveryDay/blob/dev/datastructure/stack/st
 - 单链表
 - 检测环形链表
 
-https://github.com/fpandzc/DataStructureEveryDay/blob/dev/datastructure/queue/queue.js
+https://github.com/fpandzc/DataStructureEveryDay/blob/dev/datastructure/linkedList/linkedList.js
