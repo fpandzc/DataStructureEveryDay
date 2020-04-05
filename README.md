@@ -3,6 +3,7 @@
 
 1. 第一天 栈 
 - 栈 
+- 十进制转二进制
 - 最小栈
 
 https://github.com/fpandzc/DataStructureEveryDay/blob/dev/datastructure/stack/stack.js
@@ -18,3 +19,10 @@ https://github.com/fpandzc/DataStructureEveryDay/blob/dev/datastructure/stack/st
 - 检测环形链表
 
 https://github.com/fpandzc/DataStructureEveryDay/blob/dev/datastructure/linkedList/linkedList.js
+
+4. 第四天 递归
+- 相反的顺序打印字符串
+- 反转字符串数组
+- 交换链表节点
+
+https://github.com/fpandzc/DataStructureEveryDay/blob/dev/algorithm/recursion/recursion.js
