@@ -26,3 +26,10 @@ https://github.com/fpandzc/DataStructureEveryDay/blob/dev/datastructure/linkedLi
 - 交换链表节点
 
 https://github.com/fpandzc/DataStructureEveryDay/blob/dev/algorithm/recursion/recursion.js
+
+5. 第5天 排序
+- 冒泡排序
+- 插入排序
+- 选择排序
+
+https://github.com/fpandzc/DataStructureEveryDay/blob/dev/algorithm/sort/sort.js
