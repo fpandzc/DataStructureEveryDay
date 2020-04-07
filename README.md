@@ -33,3 +33,8 @@ https://github.com/fpandzc/DataStructureEveryDay/blob/dev/algorithm/recursion/re
 - 选择排序
 
 https://github.com/fpandzc/DataStructureEveryDay/blob/dev/algorithm/sort/sort.js
+
+6. 第6天 排序 Ⅱ
+- 归并排序
+
+https://github.com/fpandzc/DataStructureEveryDay/blob/dev/algorithm/sort2/sort2.js
