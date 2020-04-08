@@ -39,5 +39,51 @@ function merge(l, r) {
 	return i < l.length ? array.concat(l.slice(i)) : array.concat(r.slice(j)) // 剩下没比完的元素都丢到数组最后面
 }
 
+console.log(mergeSort([5, 4, 1, 3, 2, 7, 6, 9, 8]))
 
-console.log(mergeSort([5,4,1,3,2,7,6,9,8]))
+// 快速排序
+
+//
+
+const quickSort = (array) => {
+	return quick(array, 0, array.length - 1)
+}
+
+function quick(array, left, right) {
+	let index 
+	if (array.length > 1) {
+		index = partition(array, left, right) 
+		if (left < index - 1) {
+			quick(array, left, index - 1) 
+		}
+		if (index < right) {
+			quick(array, index, right) 
+		}
+	}
+	return array
+}
+
+function partition(array, left, right){
+	const pivot = array[Math.floor((right + left) / 2)]
+	let i = left
+	let j = right
+
+	while( i <= j){
+		while (array[i] < pivot) {
+			i++
+		}
+		while (array[j] > pivot) {
+			j--
+		}
+
+		if(i <= j){
+			[array[i],array[j]] = [array[j],array[i]] 
+			j--
+			i++
+		}
+	}
+
+	return i
+}
+
+console.log(quickSort([5, 4, 1, 3, 2, 7, 6, 9, 8]))

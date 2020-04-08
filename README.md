@@ -38,3 +38,8 @@ https://github.com/fpandzc/DataStructureEveryDay/blob/dev/algorithm/sort/sort.js
 - 归并排序
 
 https://github.com/fpandzc/DataStructureEveryDay/blob/dev/algorithm/sort2/sort2.js
+
+7. 第7天 排序 Ⅱ
+- 快速排序(今天身体不舒服，明天再补注释)
+
+https://github.com/fpandzc/DataStructureEveryDay/blob/dev/algorithm/sort2/sort2.js
