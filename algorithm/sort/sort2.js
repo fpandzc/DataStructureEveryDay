@@ -43,45 +43,58 @@ console.log(mergeSort([5, 4, 1, 3, 2, 7, 6, 9, 8]))
 
 // 快速排序
 
-//
+// 快速排序的思想  快排是选择排序的优化版  所以他也是不稳定的  
+
+// 选择排序是利用最小值与其他元素比较 进行排序  而快排 则需要一个主元pivot
+
+// 利用分治的思想 每次将比主元小的元素排到左边（但不一定有序）大的元素排到右边 直到这个数组分到最小的时候
+
+// 因为左边只有一个元素  所以一定有序 最后递归结束 数组也排序完成
 
 const quickSort = (array) => {
+	// 用来递归的函数
+ 	function quick(array, left, right) { 
+		let index  
+		if (array.length > 1) {
+			// 将数组分区 每一次分区完成后index左边一定比array[index]小
+			index = partition(array, left, right) 
+			if (left < index - 1) {
+				quick(array, left, index - 1) 
+			}
+			if (index < right) {
+				quick(array, index, right) 
+			}
+		}
+		return array
+	}
+
 	return quick(array, 0, array.length - 1)
 }
 
-function quick(array, left, right) {
-	let index 
-	if (array.length > 1) {
-		index = partition(array, left, right) 
-		if (left < index - 1) {
-			quick(array, left, index - 1) 
-		}
-		if (index < right) {
-			quick(array, index, right) 
-		}
-	}
-	return array
-}
-
 function partition(array, left, right){
-	const pivot = array[Math.floor((right + left) / 2)]
-	let i = left
-	let j = right
+	const pivot = array[Math.floor((right + left) / 2)] // 不一定要中间，也可以是随机的元素  
+	let i = left // 左边的指针
+	let j = right // 右边的指针 
 
 	while( i <= j){
 		while (array[i] < pivot) {
+			// 找到左边比主元大的元素时就停止
 			i++
 		}
 		while (array[j] > pivot) {
+			// 找到右边比主元小的元素时就停止
 			j--
 		}
 
 		if(i <= j){
+			// 交换这两个值
 			[array[i],array[j]] = [array[j],array[i]] 
 			j--
 			i++
 		}
 	}
+
+	// 直到左边指针超过右边指针 
 
 	return i
 }

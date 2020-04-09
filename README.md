@@ -43,3 +43,8 @@ https://github.com/fpandzc/DataStructureEveryDay/blob/dev/algorithm/sort2/sort2.
 - 快速排序(今天身体不舒服，明天再补注释)
 
 https://github.com/fpandzc/DataStructureEveryDay/blob/dev/algorithm/sort2/sort2.js
+
+8. 第8天 搜索
+- 二分搜索(最简单版)
+
+https://github.com/fpandzc/DataStructureEveryDay/blob/dev/algorithm/search/search.js
