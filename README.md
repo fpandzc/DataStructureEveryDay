@@ -48,3 +48,10 @@ https://github.com/fpandzc/DataStructureEveryDay/blob/dev/algorithm/sort2/sort2.
 - 二分搜索(最简单版)
 
 https://github.com/fpandzc/DataStructureEveryDay/blob/dev/algorithm/search/search.js
+
+9. 第9天 二叉树
+- 二叉树
+- 前序遍历 中序遍历 后序遍历 
+- 广度优先遍历
+
+https://github.com/fpandzc/DataStructureEveryDay/blob/dev/datastructure/tree/binarytree.js
