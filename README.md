@@ -55,3 +55,9 @@ https://github.com/fpandzc/DataStructureEveryDay/blob/dev/algorithm/search/searc
 - 广度优先遍历
 
 https://github.com/fpandzc/DataStructureEveryDay/blob/dev/datastructure/tree/binarytree.js
+
+10. 第10天 二叉搜索树
+- 二叉搜索树
+- 插入元素
+
+https://github.com/fpandzc/DataStructureEveryDay/blob/dev/datastructure/tree/binarysearchtree.js
