@@ -142,8 +142,13 @@ bt.insert(5)
 bt.insert(6)
 bt.insert(7)
 bt.insert(8)
-console.log(bt)
+// console.log(bt)
 // bt.preOrderTraverse()
 // bt.inOrderTraverse()
 // bt.postOrderTraverse()
-console.log(bt.levelOrder())
+// console.log(bt.levelOrder())
+
+module.exports = {
+	Node,
+	BinaryTree
+}
