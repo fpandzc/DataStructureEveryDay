@@ -61,3 +61,9 @@ https://github.com/fpandzc/DataStructureEveryDay/blob/dev/datastructure/tree/bin
 - 插入元素
 
 https://github.com/fpandzc/DataStructureEveryDay/blob/dev/datastructure/tree/binarysearchtree.js
+
+11. 第11天 二叉搜索树
+- 二叉搜索树
+- 删除元素 查找元素
+
+https://github.com/fpandzc/DataStructureEveryDay/blob/dev/datastructure/tree/binarysearchtree.js

@@ -148,7 +148,7 @@ bt.insert(8)
 // bt.postOrderTraverse()
 // console.log(bt.levelOrder())
 
-module.exports = {
-	Node,
-	BinaryTree
-}
+// module.exports = {
+// 	Node,
+// 	BinaryTree
+// }
