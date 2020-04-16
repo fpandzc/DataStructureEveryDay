@@ -67,3 +67,5 @@ https://github.com/fpandzc/DataStructureEveryDay/blob/dev/datastructure/tree/bin
 - 删除元素 查找元素
 
 https://github.com/fpandzc/DataStructureEveryDay/blob/dev/datastructure/tree/binarysearchtree.js
+
+> 因工作原因（找工作）以及学习路线的调整 近日停更几天, 回来后将带来更优质的学习路线与内容！！！  
